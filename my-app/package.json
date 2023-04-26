@@ -1,0 +1,63 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5000/",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-regular-svg-icons": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/material": "^5.11.6",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.3.1",
+    "cdbreact": "^1.5.4",
+    "chart.js": "^4.2.0",
+    "devextreme": "^22.2.3",
+    "devextreme-react": "^22.2.3",
+    "exceljs": "^4.3.0",
+    "file-saver": "^2.0.5",
+    "file-saver-es": "^2.0.5",
+    "formik": "^2.2.9",
+    "highcharts": "^10.3.3",
+    "highcharts-react-official": "^3.1.0",
+    "month-year-picker": "^0.2.5-alpha-1",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-clock": "^4.0.0",
+    "react-dom": "^18.2.0",
+    "react-html-table-to-excel": "^2.0.0",
+    "react-router-dom": "^6.6.2",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^9.1.1",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5",
+    "year-month-date": "^1.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

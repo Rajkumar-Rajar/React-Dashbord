@@ -1,0 +1,11 @@
+
+.one{
+    position: relative;
+    animation: mymove 2s infinite;
+    color: green;
+    margin-left: 10%;
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
